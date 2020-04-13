@@ -47,7 +47,7 @@
 
 .paddlehand {
     background: url(../images/paddle.png) 50% 0;
-repeat-y;
+    repeat-y;
     background-size: contain;
     width: 30px;
     height: 100%;
