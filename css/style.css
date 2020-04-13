@@ -37,12 +37,24 @@
 
 #paddleA {
     left: 50px;
-    background-image: url();
+    background-image: url(../images/paddle.png);
 }
 
 #paddleB {
     right: 50px;
-    background-image: url();
+    background-image: url(../images/paddle.png);
 }
+
+.paddlehand {
+    background: url(../images/paddle.png) 50% 0;
+repeat-y;
+    background-size: contain;
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+
 
 
